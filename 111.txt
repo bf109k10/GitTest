@@ -1,0 +1,18 @@
+git config --global user.name bf109k10
+git config --global user.email "falineric@gmail.com"
+
+git init
+
+git remote add origin https://github.com/bf109k10/GitTest.git
+
+git clone https://github.com/bf109k10/GitTest.git
+
+git commit -m "2nd commit"
+
+ git checkout c91c022421a52efd133c0b2a6afdfad6d8760eb3
+
+git log
+
+git branch feature
+
+git checkout feature
